@@ -13,7 +13,7 @@ mod cmdrunext;
 mod podman;
 use cmdrunext::CommandRunExt;
 
-static DEFAULT_IMAGE: &str = "registry.fedoraproject.org/f30/fedora-toolbox:30";
+static DEFAULT_IMAGE: &str = "registry.fedoraproject.org/f33/fedora-toolbox:33";
 /// The label set on toolbox images and containers.
 static TOOLBOX_LABEL: &str = "com.coreos.toolbox";
 /// The label set on github.com/debarshiray/fedora-toolbox images and containers.
